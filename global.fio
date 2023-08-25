@@ -1,0 +1,13 @@
+threads=1
+group_reporting
+filename=writeBin.bin
+ioengine=libaio
+verify=crc32c
+bs=128k
+size=100%
+stonewall
+direct=1
+numjobs=1
+iodepth=32
+directory=./result
+buffer_pattern=0x666666

@@ -1,0 +1,8 @@
+[128K_seq_read]
+
+include global.fio
+
+rw=read
+write_bw_log=./result/read_bw_log.log
+write_iops_log=./result/read_iops_log.log
+write_lat_log=./result/read_lat_log.log
